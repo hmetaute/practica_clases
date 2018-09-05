@@ -6,29 +6,32 @@ import java.util.*;
  * @author Lilo
  * @version 0.0.0.0.0.0.1
  */
-public class Celda
+public class Cell
 {
     // instance variables - replace the example below with your own
-    private boolean ocupado;
+    private boolean occupied;
+    private Vehicle parkedVehicle;
+    
 
     /**
      * Constructor for objects of class Celda
      */
-    public Celda()
+    public Cell()
     {
         // initialise instance variables
-        ocupado = false;
+        occupied = false;
     }
 
     /**
-     * Metodo para saber si una celda esta ocupada.
+     * Metodo para saber asignarle un vehículo a una celda.
      *
-     * @return    un variable que dice si hay o no un vehiculo en la celda. 
+     * @return un variable que dice si hay o no un vehiculo en la celda. 
      */
-    public boolean estaOcupada()
+    public void parkVehicle(Vehicle newVehicle)
     {
-        // put your code here
-        return ocupado;
+        occupied = true;
+        parkedVehicle = newVehicle;
+    
     }
     
     public List<String> splitWithEmpty(String param) {

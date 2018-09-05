@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\r\n\ Representa\ la\ ubicaci\u00F3n\ de\ un\ espacio\ en\ un\ parqueadero\ en\ el\ que\ se\ puede\r\n\ dejar\ un\ veh\u00EDculo.\r\n\r\n\ @author\ Lilo\r\n\ @version\ 0.0.0.0.0.0.1\r\n
+comment1.params=
+comment1.target=Cell()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Celda\r\n
+comment2.params=newVehicle
+comment2.target=void\ parkVehicle(Vehicle)
+comment2.text=\r\n\ Metodo\ para\ saber\ asignarle\ un\ veh\u00EDculo\ a\ una\ celda.\r\n\r\n\ @return\ un\ variable\ que\ dice\ si\ hay\ o\ no\ un\ vehiculo\ en\ la\ celda.\ \r\n
+comment3.params=param
+comment3.target=java.util.List\ splitWithEmpty(java.lang.String)
+numComments=4

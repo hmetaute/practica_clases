@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ParkingLot
+comment1.params=cellCapacity\ preciohora
+comment1.target=ParkingLot(int,\ double)
+comment1.text=\r\n\ Metodo\ contructor\ que\ sirve\ para\ crear\ un\ objeto\ de\ tipo\ de\ parqueadero.\r\n
+comment2.params=
+comment2.target=void\ parkVehicle()
+numComments=3
