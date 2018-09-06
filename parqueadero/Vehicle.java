@@ -16,7 +16,7 @@ public class Vehicle
     /**
      * Constructor for objects of class vehicle
      */
-    public Vehicle(String numberPlate,String color, int model, String brand){
+    public Vehicle(String numberPlate, String color, int model, String brand){
         this.numberPlate = numberPlate;
         this.color= color;
         this.model = model;

@@ -31,10 +31,9 @@ public class Cell
     {
         occupied = true;
         parkedVehicle = newVehicle;
-    
     }
     
-    public List<String> splitWithEmpty(String param) {
-        return Arrays.asList(param.split(","));
+    public boolean isOccupied(){
+    return occupied;
     }
 }
