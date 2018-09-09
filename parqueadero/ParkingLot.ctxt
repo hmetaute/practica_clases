@@ -18,5 +18,5 @@ comment5.target=int\ findParkedVehicle(Vehicle)
 comment5.text=\r\n\ Metodo\ que\ permite\ encontrar\ la\ celda\ d\u00F3nde\ est\u00E1\ un\ veh\u00EDculo\ parqueado.\r\n\ @return\ un\ entero\ con\ la\ posici\u00F3n\ de\ la\ celda\ donde\ est\u00E1\ parqueado\ o\ -1\ si\ no\ encentra\ el\ veh\u00EDculo.\r\n
 comment6.params=newVehicle
 comment6.target=int\ removeVehicle(Vehicle)
-comment6.text=\r\n\ Metodo\ que\ permite\ sacar\ un\ carro\ del\ parqueadero\ para\ dejar\ la\ celda\ vac\u00EDa.\r\n\ @return\ un\ entero\ con\ el\ n\u00FAmero\ de\ horas\ que\ estuvo\ parqueado\ el\ carro\ y\ deja\ la\ celda\ vac\u00EDa.\r\n
+comment6.text=\r\n\ Metodo\ que\ permite\ sacar\ un\ carro\ del\ parqueadero\ para\ dejar\ la\ celda\ vac\u00EDa.\r\n\ @return\ un\ las\ horas\ que\ estuvo\ parqueado\ el\ carro\ y\ deja\ la\ celda\ vac\u00EDa.\r\n
 numComments=7

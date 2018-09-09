@@ -8,17 +8,17 @@ public class Vehicle{
  private String color;
  private int model;
  private String brand;
- private int parkingTime;
+ private int startParkingTime; //cambiar por formato de horas.
  
   /**
-  * Constructor for objects of class vehicle
+  * Constructor de la clase vehículo
   */
   public Vehicle(String numberPlate, String color, int model, String brand){
    this.numberPlate = numberPlate;
    this.color= color;
    this.model = model;
    this.brand = brand;
-   this.parkingTime = 2;
+   this.startParkingTime = 1;
   }
 
   /**
@@ -29,9 +29,20 @@ public class Vehicle{
   }
   
   /**
-  * Método getter para obtener el tiempo que el carro estuvo parqueado.
+  * Método getter para obtener a qué horas entró el vehículo al parqueadero.
   */
-  public int getParkingTime(){
-   return parkingTime;
+  public int getStartParkingTime(){ //cambiar por formato de horas.
+   int startParkingTime = 1; //cambiar por formato de horas y poner una variable.
+   return startParkingTime;
   }
+  
+  /**
+  * Método getter para obtener a qué horas salió el vehículo del parqueadero
+  */
+  public int getEndParkingTime(){ //cambiar por formato de horas.
+   int endParkingTime = 5; //cambiar por formato de horas y poner una variable.
+   return endParkingTime;
+  }
+  
 }
+  

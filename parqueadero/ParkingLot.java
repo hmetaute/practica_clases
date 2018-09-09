@@ -6,7 +6,7 @@ import java.util.*;
 public class ParkingLot{
  // Atributos de la clase Parqueadero
   private int parkingLotCapacity; // Número total de celdas del parqueadero
-  private double precio; // Precio de la hora
+  private double price; // Precio de la hora
   private Cell[] listOfCells; //Lista de celdas de mi parqueadero
      
     /**
@@ -15,7 +15,7 @@ public class ParkingLot{
      */
     public ParkingLot(int cellCapacity, double preciohora){
      // asignacion de valores a los atributos del parqueadero
-     this.precio = preciohora;
+     this.price = preciohora;
      this.parkingLotCapacity = cellCapacity;
      listOfCells = new Cell[parkingLotCapacity];//Necesito crear el arreglo antes de utilizarlo en el For..
       for (int i=0; i<parkingLotCapacity; i++){ 
@@ -98,15 +98,17 @@ public class ParkingLot{
     
     /**
      * Metodo que permite sacar un carro del parqueadero para dejar la celda vacía.
-     * @return un entero con el número de horas que estuvo parqueado el carro y deja la celda vacía.
+     * @return un las horas que estuvo parqueado el carro y deja la celda vacía.
      */
-    public int removeVehicle (Vehicle newVehicle){
+    public int removeVehicle(Vehicle newVehicle){ //cambiar por formato de horas.
      Vehicle vehicleToRemove = newVehicle;
      int occupiedSpot = findParkedVehicle(vehicleToRemove);
-     int parkingTime =  0;
+     int parkingTime; //cambiar por formato de horas.
      if (occupiedSpot != -1){
      listOfCells[occupiedSpot].changeOccupied(false);
-     parkingTime = vehicleToRemove.getParkingTime();
+     int startParkingTime = vehicleToRemove.getStartParkingTime(); //cambiar por formato de horas.
+     int endParkingTime = vehicleToRemove.getEndParkingTime(); //cambiar por formato de horas.
+     parkingTime = endParkingTime - startParkingTime;
      }
      else{
      parkingTime = -1;

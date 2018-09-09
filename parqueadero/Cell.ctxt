@@ -15,5 +15,5 @@ comment4.target=Vehicle\ getParkedVehicle()
 comment4.text=\r\n\ M\u00E9todo\ getter\ para\ obtener\ el\ atributo\ parkedVehicle\ desde\ otras\ clases.\r\n
 comment5.params=newVehicle
 comment5.target=void\ parkVehicle(Vehicle)
-comment5.text=\r\n\ M\u00E9todo\ para\ asignarle\ un\ veh\u00EDculo\ a\ una\ celda\ para\ que\ quede\ parqueado.\r\n\ @return\ un\ variable\ que\ dice\ si\ hay\ o\ no\ un\ vehiculo\ en\ la\ celda.\ \r\n
+comment5.text=\r\n\ M\u00E9todo\ para\ asignarle\ un\ veh\u00EDculo\ a\ una\ celda\ para\ que\ quede\ parqueado.\r\n\ @return\ un\ variable\ que\ dice\ si\ hay\ o\ no\ un\ veh\u00EDculo\ en\ la\ celda.\ \r\n
 numComments=6

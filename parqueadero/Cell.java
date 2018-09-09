@@ -38,7 +38,7 @@ public class Cell{
   
   /**
   * Método para asignarle un vehículo a una celda para que quede parqueado.
-  * @return un variable que dice si hay o no un vehiculo en la celda. 
+  * @return un variable que dice si hay o no un vehículo en la celda. 
   */
   public void parkVehicle(Vehicle newVehicle){
    occupied = true;
