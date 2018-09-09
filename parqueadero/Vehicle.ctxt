@@ -1,7 +1,13 @@
 #BlueJ class context
 comment0.target=Vehicle
-comment0.text=\r\n\ Representa\ un\ vehiculo\ que\ puede\ llenar\ una\ celda.\r\n\ \ \ \r\n\ \r\n\ @author\ Lilo\ \r\n\ @version\ 0.0.0.0.0.0.1\r\n
+comment0.text=\r\n\ Representa\ un\ vehiculo\ que\ puede\ llenar\ una\ celda.\r\n
 comment1.params=numberPlate\ color\ model\ brand
 comment1.target=Vehicle(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ vehicle\r\n
-numComments=2
+comment2.params=
+comment2.target=java.lang.String\ getNumberPlate()
+comment2.text=\r\n\ M\u00E9todo\ getter\ para\ obtener\ el\ atributo\ numberPlate\ desde\ otras\ clases.\r\n
+comment3.params=
+comment3.target=int\ getParkingTime()
+comment3.text=\r\n\ M\u00E9todo\ getter\ para\ obtener\ el\ tiempo\ que\ el\ carro\ estuvo\ parqueado.\r\n
+numComments=4
